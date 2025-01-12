@@ -1,0 +1,48 @@
+'''a=[2,3,4]
+print(2 in a)
+print(5 not in a)
+
+b={3,4,5}
+print(3 in b)
+print(6 not in b)
+
+nam="wrekkuna"
+print("wrek" not in nam)
+
+x=5
+y=5
+print(x==y)
+print(x is not y)
+print(id(x))
+print(id(y))'''
+
+a=[5,2]
+b=[5,2]
+print(id(a))
+print(id(b))
+
+'''WAP to take two numbers as input on a and b,
+display the actual value we get when we divide a by b, quotient and remainder. '''
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+print(f"The quotient of {a}/{b} is {a/b}")
+print(f"The remainder of {a}/{b} is {a%b}")
+
+'''WAP to calculate Surface area and volume of a cylinder, take user input'''
+pie=3.14
+r=float(input("Enter the radius of cylinder: "))
+h=float(input("Enter the height of cylinder: "))
+print(f"The surface of cylinder is: {2*pie*r*h+2*pie*(r*r)}.")
+print(f"The volumeof cylinder is: {2*pie*(r*r)}.")
+
+'''WAP to display name, age , phone number and occupation of an user ( take user input)'''
+name=input("Enter your name: ")
+age=int(input("Enter your age: "))
+number=int(input("Enter your phone: "))
+Occupation=input("Enter your Occupation: ")
+
+print(f"Name:{name}")
+print(f"Age:{age}")
+print(f"Phone Number:{number}")
+print(f"Occupation:{Occupation}")
+
