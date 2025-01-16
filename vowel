@@ -5,3 +5,5 @@ if(u=="A" or u=="E" or u=="I" or u=="O" or u=="U"):
     print(f"{u} is vowel character.")
 else:
     print(f"{u} is consonent character.")
+#vowel="aeiouAEIOU"
+#if(char in vowels)
