@@ -1,5 +1,7 @@
-a=int(input("Enter a number: "))
+n=int(input("Enter a number: "))
+i=1
 fact=1
-for i in range(1,a+1):
-    fact = fact * i
-print(f"The sum of natural number is {fact}.")
+while i<=n:
+    fact*=i
+    i=i+1
+print(f"The factorial is {fact}.")
